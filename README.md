@@ -7,4 +7,4 @@ oggy spells ugly!!..
 
 ## Method
 
-The code does the work according to the intention. 
+The code does the work according to the intention.
