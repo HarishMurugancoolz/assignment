@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static boolean namesMatch(String name)
     {
-        String toremove="oggy";
+        String str_toremove="oggy";
         if(name.length()<4)
         {
             return false;
@@ -14,7 +14,7 @@ public class Main {
         
         for(int i_name=0;i_name<4;i_name++)
         {
-            if(name.charAt(i_name)!=toremove.charAt(i_name))
+            if(name.charAt(i_name)!=str_toremove.charAt(i_name))
             {
                 return false;
             }
