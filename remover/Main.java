@@ -4,7 +4,33 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
+    public static boolean namesMatch(String name)
+    {
+        String toremove="oggy";
+        if(name.length()<4)
+        {
+            return false;
+        }
+        
+        for(int i_name=0;i_name<4;i_name++)
+        {
+            if(name.charAt(i_name)!=toremove.charAt(i_name))
+            {
+                return false;
+            }
+        }
+        return true;
+        
+    }
     public static void removeOggy(ArrayList<String> names) {
+        for(int i_names=0;i_names<names.size();i_names++)
+        {
+                if(namesMatch(names[i_names]))
+                {
+                    names.remove(i_names);
+                    i_names--;
+                }
+        }
         return;
     }
     public static boolean oggyIsRemoved(ArrayList<String> names) {
