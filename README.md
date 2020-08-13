@@ -7,6 +7,6 @@ oggy spells ugly!!..
 
 ## Method
 
-The code doesn't work according to the intention. Make it succeed.
+The code does the work according to the intention. 
 
-Don't forget to update this file after fixing the code.
+
