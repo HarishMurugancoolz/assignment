@@ -25,7 +25,7 @@ public class Main {
     public static void removeOggy(ArrayList<String> names) {
         for(int i_names=0;i_names<names.size();i_names++)
         {
-                if(namesMatch(names[i_names]))
+                if(namesMatch(names.get(i_names)))
                 {
                     names.remove(i_names);
                     i_names--;
